@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".page4"
+    android:background="@drawable/five">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suddenly, the wolf appeared beside her.What are you doing out here, little girl? the wolf asked in a voice as friendly as he could muster."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm on my way to see my Grandma who lives through the forest, near the brook, Little Red Riding Hood replied."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Then she realized how late she was and quickly excused herself, rushing down the path to her Grandma's house.The wolf, in the meantime, took a shortcut..."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="410dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage4"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#720B0B"
+        android:textColor="#D7CACA" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2sp"
+        android:onClick="goToPage6"
+        android:text="NEXT"
+        android:backgroundTint="#720B0B"
+        android:textColor="#EFDCDC"/>
+
+</LinearLayout>
+

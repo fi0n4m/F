@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".page6"
+    android:background="@drawable/six">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The wolf, a little out of breath from running, arrived at Grandma's and knocked lightly at the door."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oh thank goodness dear! Come in, come in! I was worried sick that something had happened to you in the forest, said Grandma thinking that the knock was her granddaughter. "
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "The wolf let himself in. Poor Granny did not have time to say another word, before the wolf gobbled her up!"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage5"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#F8F2F2"
+        android:textColor="#720B0B"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToPage7"
+        android:text="NEXT"
+        android:backgroundTint="#F8F2F2"
+        android:textColor="#720B0B"/>
+
+</LinearLayout>

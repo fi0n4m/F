@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".page11"
+    android:background="@drawable/eleven"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Oh Grandma, I was so scared! sobbed Little Red Riding Hood, I'll never speak to strangers or dawdle in the forest again. "
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "There, there, child. You've learned an important lesson. Thank goodness you shouted loud enough for this kind woodsman to hear you!"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "The woodsman knocked out the wolf and carried him deep into the forest where he wouldn't bother people any longer."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Little Red Riding Hood and her Grandmother had a nice lunch and a long chat."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="350dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage10"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#720B0B"
+        android:textColor="#D7CACA" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2sp"
+        android:onClick="goToMainActivity"
+        android:text="HOME PAGE"
+        android:backgroundTint="#720B0B"
+        android:textColor="#EFDCDC"/>
+
+</LinearLayout>
+

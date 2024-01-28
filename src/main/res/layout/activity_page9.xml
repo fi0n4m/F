@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".page9"
+    android:background="@drawable/nine">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="But Grandmother! What big ears you have,said Little Red Riding Hood as she edged closer to the bed"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The better to hear you with, my dear,replied the wolf."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="But Grandmother! What big eyes you have,said Little Red Riding Hood."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "The better to see you with, my dear, replied the wolf"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="But Grandmother! What big teeth you have, said Little Red Riding Hood her voice quivering slightly."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The better to eat you with, my dear,roared the wolf and he leapt out of the bed and began to chase the little girl. "
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Then she realized how late she was and quickly excused herself, rushing down the path to her Grandma's house.The wolf, in the meantime, took a shortcut..."
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="goToPage8"
+        android:layout_marginRight="150dp"
+        android:text="BACK"
+        android:backgroundTint="#720B0B"
+        android:textColor="#D7CACA" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2sp"
+        android:backgroundTint="#720B0B"
+        android:onClick="goToPage10"
+        android:text="NEXT"
+        android:textColor="#EFDCDC" />
+
+</LinearLayout>
+
